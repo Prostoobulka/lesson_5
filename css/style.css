@@ -1,0 +1,175 @@
+.wrapper{
+	padding: 0 15px;
+}
+.header{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+.header__inner > div {
+	margin-bottom: 10px;
+}
+.header__logo,
+.header__button-sign-in,
+.header__search-bbc {
+	text-align: center;
+}
+.header__logo ~ div {
+	color: red;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.header__menu > li {
+	margin-bottom: 5px;
+}
+.menu__item.menu__item--right{
+	text-align: right;
+}
+.menu__item.menu__item--center{
+	text-align: center;
+}
+
+.menu__item + .menu__item--brown  {
+	color: brown;
+}
+
+/* ----------------------------------------------- */
+
+.main {
+	font-family: "FuturaFuturis", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+/* ----------------------------------------------- */
+.main__inner > h1, h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+}
+/* Те саме тільки для всього в нашому випадку для обєкта main__inner h1, h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+} */
+/* ----------------------------------------------- */
+.main__inner > div.img{
+	margin: 10px 0;
+}
+.main-img{
+	text-align: center;
+}
+/* ----------------------------------------------- */
+.main-img  img{	
+	width: 1000px !important;
+}
+.main-img  img{	
+	width: 1100px;
+}
+/* ----------------------------------------------- */
+.img--right{
+	text-align: right;
+}
+.subimg-text {
+	background: rgba(12, 179, 12, 0.481);
+	padding: 20px;
+	text-align: center;
+	margin: 0 0 15px 0 ;
+	font-weight: 400;
+	word-spacing: 12.5px;
+}
+.subimg-text + p {
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: yellowgreen;
+	text-indent: 60px;
+	font-style: italic;
+}
+
+.highway-block > p{
+	margin: 5px;
+	text-indent: 20px;
+}
+.highway-block > div span{
+	text-shadow: 2px 5px 5px #000;
+	color: royalblue;
+	font-weight: 400;
+	letter-spacing: 25px;
+}
+.img-under-text {
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+/* ----------------------------------------------- */
+.text-block-dangerous-road > .text-under-img {	
+	background: rgba(74, 10, 238, 0.633);
+	width: 400px;
+	padding: 20px;
+	margin-bottom: 15px;
+	word-spacing: 5px;
+}
+.text-under-img.without-border-box{
+	box-sizing: content-box;
+}
+.text-under-img.without-border-box span{
+	font-weight: 700;
+	font-style: italic;
+	color: aquamarine;
+	line-height: 2 ;
+}
+.text-under-img--right{
+	margin-left: auto;
+}
+
+/* ----------------------------------------------- */
+
+.text-under-img ~ p {
+	color: darkorange;
+	letter-spacing: 3px;
+	text-align: right;
+	
+}
+
+.countless-rumours-block * {
+	margin-bottom: 20px;
+}
+.countless-rumours-block-title {
+	color:crimson;
+	word-spacing: 20px;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+	
+}
+.countless-rumours-block-text {
+	font-weight: 400;
+	color: fuchsia;
+	word-spacing: 7px;
+	text-decoration: line-through;
+}
+
+.footer {
+	font-family: "Ubuntu", serif;
+	font-weight: 500;
+}
+.footer__inner *{
+	margin:0 0 5px 0;
+}
+.footer__menu > .menu__item.menu__item--center  {
+	color: darkslateblue;
+	font-size: 30px;
+	text-decoration: overline;
+	text-shadow: 3px 5px 5px rgb(230, 2, 2);
+	text-transform: uppercase;
+	
+}
+.copy {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	word-spacing: 4px;
+	white-space: nowrap; 
+}
+/* ----------------------------------------------- */

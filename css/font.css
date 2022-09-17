@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+@font-face {
+	font-family: 'FuturaFuturis';
+	src: url('../fonts/FuturaFuturisLightC.woff2') format('woff2'),
+	url('../fonts/FuturaFuturisLightC.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FuturaFuturis';
+	src: url('../fonts/FuturaFuturisC.woff2') format('woff2'),
+	url('../fonts/FuturaFuturisC.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: 'FuturaFuturis';
+	src: url('../fonts/FuturaFuturisC-Bold.woff2') format('woff2'),
+	url('../fonts/FuturaFuturisC-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'FuturaFuturis';
+	src: url('../fonts/FuturaFuturisC-BoldItalic.woff2') format('woff2'),
+	url('../fonts/FuturaFuturisC-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
